@@ -7,8 +7,8 @@
 // }
 
 function superbowlWin(array) {
-  const winningSeason = array.find(function (blah) {
-    return blah.result === "W";
+  const winningSeason = array.find(function (obj) {
+    return obj.result === "W";
   })
   if (winningSeason) {
     return winningSeason.year;
